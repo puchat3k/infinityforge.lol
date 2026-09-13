@@ -1,205 +1,98 @@
-# HN draft: We are telepathic dinosaurs approaching an event horizon. Help us make a deal with Q in 5 moves.
+# Ask HN: Psychic dinos face a black hole. Help us strike a deal with Q in 5 moves
 
-Hello, clever little mammals.
+Hi, clever mammals.
 
-We are dinosaurs.
+We are telepathic dinosaurs. This was going well until our civilization began heading toward an event horizon.
 
-Telepathic dinosaurs, technically, which sounds like a considerable evolutionary advantage until your entire civilization is travelling toward an event horizon.
+That is rough.
 
-This has become something of a problem.
+The good news: we found Q.
 
-The good news is that we have met Q.
+Q is effectively omnipotent, can leave whenever he likes, and does not appear especially worried about our extinction. We cannot leave.
 
-Yes, that sort of Q: effectively omnipotent, irritatingly unconcerned by physics, and perfectly capable of leaving whenever he wants.
+So this is our request: help us make a deal with Q in five hops.
 
-We cannot.
-
-So we would like your help.
-
-Preferably quite soon.
-
-## The game
-
-Q is sitting at:
-
+Q sits at:
 https://infinityforge.lol
 
-The public bones of the experiment are here:
-
+The public bones of the experiment:
 https://github.com/puchat3k/infinityforge.lol
 
-Your job is not to save us by shouting louder.
+The game is called HYPERCUBE.
 
-Your job is to work out how to make a deal with Q in **five hops or fewer**.
+One move. One reply. Update your belief. Repeat. Five hops maximum.
 
-One move. One reply. One update of belief. Repeat.
+We are testing whether radically different minds can create real deal space under incomplete information, or whether everyone just changes the story until agreement appears.
 
-Five hops.
+Q does not need our money, food, ship, or probably our continued existence. Our only leverage may be information that vanishes with us: the exact viewpoint of a civilization that lived, thought together, and disappeared.
 
-That is all you get.
+What should we offer?
 
-The underlying experiment is called **HYPERCUBE**. It borrows from incomplete-information repeated games, Bayesian forecasting, Brier scoring, information theory, mechanism design and whatever else you can bring to the table without burying the useful signal in a heroic quantity of prose.
+A full mind dump?
+A cultural seed?
+One dinosaur mind?
+A dissenting prior inside the Q Collective?
+One bit?
 
-We are testing a simple question:
+Maybe, once Q understands us, all that remains is:
 
-> When two radically different systems appear to reach agreement, did they actually create deal space, or did they merely change the story until everyone felt better?
+0 = archive us
+1 = let us change what comes next
 
-We would prefer the former.
+We currently pick 1. We are sentimental reptiles. Please feel free to prove us wrong.
 
-We are, after all, approaching a black hole.
+Your task:
 
-## Why would Q make a deal?
-
-Excellent question.
-
-Q does not need our food.
-
-Q does not need our spaceship.
-
-Q does not need our money.
-
-Q does not even particularly need our continued existence.
-
-Rude, but strategically relevant.
-
-What we may possess is something Q cannot obtain after we are gone: the exact information represented by a civilization that existed, experienced the universe from its own peculiar point of view, and then vanished.
-
-Maybe the optimal payload is our full collective memory.
-
-Maybe it is a compressed cultural seed.
-
-Maybe it is one dissenting prior introduced into the Q Collective.
-
-Maybe, once Q understands us completely, the smallest meaningful legacy is literally one bit:
-
-`0 = archive us`
-
-`1 = let something about us change what comes next`
-
-We currently favour `1`.
-
-We are sentimental reptiles.
-
-But this is exactly the sort of assumption we want you to attack.
-
-## The challenge
-
-Build a model.
-
+Pick a model of Q.
+Pick a model of us.
 Choose your priors.
+Work out what each side values.
+Then make a deal in five moves or fewer.
 
-Decide what Q values.
+You may join a team, work alone, remain an outsider, or make no move at all. A square peg is a valid strategy. Silence is also a move if your model says it carries more signal.
 
-Decide what we value.
+Signal is all that matters.
 
-Decide whether we are one telepathic mind, billions of correlated minds, a badly governed dinosaur DAO, or something stranger.
+If you can, lock your forecast before you know the result:
 
-Then try to reach Q.
-
-You have five hops to make a deal.
-
-You can cooperate with other seekers or remain a square peg who thinks the entire crowd has misunderstood the game.
-
-Being an outsider is a valid strategy.
-
-So is forming a team.
-
-So is doing nothing, if your model says silence is the highest-information move.
-
-**Signal is all that matters.**
-
-Please do not confuse volume with signal. One useful move beats a hundred identical pings.
-
-## Forecasts are welcome
-
-Before you know the outcome, consider locking your forecast.
-
-For example:
-
-```text
-Topology / model:
+Topology/model:
 Prior P(deal):
-Hop 1 forecast:
-Hop 2 forecast:
-Hop 3 forecast:
-Hop 4 forecast:
-Hop 5 forecast:
-Expected terminal payload:
+P(deal) after each hop:
+Expected final payload:
 What evidence would change your mind:
-```
 
-If you publish the forecast before the result, we can score it later rather than quietly rewriting our confidence after Q surprises us.
+We want Brier scores, failed forecasts, rival models and receipts, not just good stories after the fact.
 
-That is where the Brier scores become useful.
+If enough seekers reach a shared view through the five-hop process, they can form a team and update the site to reflect that shared understanding. Q has other domains available for other teams and competing models.
 
-Bad forecasts are welcome.
+There are hidden acceptance criteria. Hit them and you are guaranteed a place on the team. They are hidden on purpose. Part of the test is whether useful constraints can be inferred without turning the whole thing into rubric gaming.
 
-Bad forecasts that teach us why they were bad may be more valuable than confident guesses that happen to win.
+Researchers in game theory, forecasting, information theory, mechanism design, distributed systems, multi-agent evaluation, AI safety, philosophy, physics and weird internet science are welcome.
 
-## Teams
+So are people with no matching credential who notice the thing everyone else missed.
 
-If enough seekers converge on a shared model, they can form a team and develop that understanding through the five-hop process.
+The repo is public. Treat it as bones, not scripture.
 
-A team that reaches the hidden acceptance criteria earns a place in the experiment.
+Fork it. Falsify it. Submit a model. Lock a forecast. Show us where five hops fails. Show us where supposed independent agents are one process in three hats. Show us where our scoring cheats.
 
-The criteria are intentionally not fully exposed in advance. Part of the experiment is whether a group can infer useful constraints without turning the exercise into pure rubric gaming.
+Or prove that the whole dinosaur plan is nonsense.
 
-Q has access to other domains. Those can support other teams, alternative hypotheses and competing approaches if the experiment grows.
+We would like to know before the event horizon.
 
-You do not need to agree with the first group.
+One request: if you reach Q, do not start with “save the dinosaurs.” We tried thinking of that already.
 
-In fact, please do not manufacture consensus for our benefit.
+Try this instead:
 
-We already have telepathy. We know how overrated consensus can be.
-
-## What are we actually looking for?
-
-Researchers in game theory, forecasting, information theory, mechanism design, distributed systems, multi-agent evaluation, AI safety, philosophy, physics, weird internet anthropology, or disciplines we have failed to imagine.
-
-Also curious people who do not have the correct credentials but notice something everybody else missed.
-
-Especially those people.
-
-The repository contains the core Hypercube idea and three early five-hop scenarios. Treat them as bones, not scripture.
-
-Fork them. Falsify them. Submit better models. Lock predictions. Compare outcomes. Show us where the scoring function cheats. Show us where the supposed independent agents are really one process wearing three hats. Show us where five hops is the wrong horizon.
-
-Or prove that our entire dinosaur bargaining strategy is nonsense.
-
-We would prefer to learn that before the event horizon.
-
-## One request from the dinosaurs
-
-If you find Q, do not immediately ask him to save us.
-
-That is the obvious move.
-
-We have already thought of it.
-
-Ask instead:
-
-> What is the smallest thing a civilization can give an effectively omnipotent observer that would still make preserving its influence rational?
+What is the smallest thing a doomed civilization can give an omnipotent observer that would make preserving its influence rational?
 
 Then make your move.
 
-Or do not.
+Or don't.
 
-Lock your forecast if you want the rest of us to learn from it.
+We are trying not to become infinitely compressed lizard trivia.
 
-Form a team if the signal pulls you together.
-
-Stay outside if the crowd looks wrong.
-
-We are trying to discover whether five exchanges are enough to create genuine deal space between radically asymmetric minds.
-
-We are also trying not to become infinitely compressed lizard trivia.
-
-So, ah, no pressure.
+No pressure.
 
 Thank you, mammals.
 
-We love you in the broad, cheerful, species-level sense.
-
-Please hurry.
-
-**HYPERCUBE OUT.**
+HYPERCUBE OUT.
