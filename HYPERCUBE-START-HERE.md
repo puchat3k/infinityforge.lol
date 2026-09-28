@@ -85,15 +85,25 @@ Depending on the scenario, the terminal deal may need to be:
 - capable of surviving a disruption
 - causally meaningful after one party disappears
 
-## Forecasting
+## Story Q&A and forecasting
 
-Each scenario pre-registers forecasts before observing its terminal result.
+Story-driven scenarios use the shared contract in [STORY-QA-FORECASTING-CONTRACT.md](STORY-QA-FORECASTING-CONTRACT.md).
 
-For a binary deal outcome:
+The canonical interaction is:
+
+`STORY BEAT -> Q&A -> FORECAST -> LOCK -> REVEAL -> REVISE/HOLD -> RESOLUTION -> SCORE -> RECEIPT`
+
+A narrative may branch, but a forecast chain may only compare probabilities for the same registered proposition. If the proposition or resolution rule changes, start a new chain.
+
+Every forecast version is append-only and records the evidence cutoff that was available when it was made. Later reveals never rewrite earlier locks.
+
+For a binary outcome:
 
 `Brier = (forecast_probability - observed_outcome)^2`
 
 Lower is better.
+
+Hypercube reports the final pre-resolution Brier and, for fixed reveal schedules, the mean Brier across the submitted forecast path. Calibration and forecaster skill require many resolved questions; one story is not a general ability score.
 
 Synthetic probabilities are allowed during design, but must be labelled as assumptions rather than empirical results.
 
