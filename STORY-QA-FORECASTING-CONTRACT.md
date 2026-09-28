@@ -148,12 +148,15 @@ Story Q&A v1 reports three different objects:
    The player's final pre-resolution call.
 
 2. **Path Brier**  
-   Mean Brier across every required pre-resolution lock the player actually submitted, provided players in the comparison received the same reveal schedule.  
+   Mean Brier across F1 through F5 when the full required chain is complete and players in the comparison received the same reveal schedule.  
+   A partial chain may be displayed as incomplete evidence, but it is not directly ranked against a complete chain.  
    This measures the full forecasting path, not just the last guess.
 
 3. **Update trace**  
    The sequence `F1 -> F2 -> F3 -> F4 -> F5`, plus which evidence arrived between locks.  
    Update quality is diagnostic. Do not award a second hidden score for "changing your mind" because revising is not inherently better than holding.
+
+F1 through F5 are repeated forecasts of **one resolved event**, not five independent resolved questions. Count the episode once in resolved N.
 
 Do not turn one episode's Brier into a general forecaster-ability score.
 
