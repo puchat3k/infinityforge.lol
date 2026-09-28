@@ -188,6 +188,26 @@ Terminal outcome:
 
 `DEAL SPACE CREATED / NOT CREATED`
 
+## Story Q&A forecast chain
+
+The scored terminal proposition for a run is:
+
+> **Will trustworthy deal space be created by the end of Hop 5 under the registered topology and noise rule?**
+
+The proposition and terminal rule stay fixed from Hop 1 through Hop 5. Each story beat asks for a judgment and a probability before the next reveal:
+
+| Lock | Story beat | Player Q&A | Forecast |
+|---|---|---|---|
+| F1 | Invitation | Which signal matters first? | P(deal space) |
+| F2 | Identity shakedown | What did the independent answers change? | updated P(deal space) |
+| F3 | Costly signal | Which commitment is strong enough to matter? | updated P(deal space) |
+| F4 | Riders on the Storm | Is the disagreement failure, noise or useful dissent? Revise or hold. | updated P(deal space) |
+| F5 | Final deal | Does the compact survive the known evidence? | final P(deal space), locked before outcome reveal |
+
+Every lock records the evidence cutoff and supersedes, but never overwrites, the prior probability.
+
+The topology table below is a **design-prior comparison between architectures**. It is not the player's five-hop forecast chain. A real run must preserve F1 -> F2 -> F3 -> F4 -> F5 separately.
+
 ## Run-0 synthetic topology forecasts
 
 These are design assumptions, not empirical findings.
