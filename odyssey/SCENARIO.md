@@ -213,6 +213,26 @@ Terminal outcome:
 
 `PORTABLE DEAL / NON-PORTABLE DEAL`
 
+## Story Q&A forecast chain
+
+The scored terminal proposition for a run is:
+
+> **Will a portable Child-Wisdom deal survive the registered storm and Hop 5 re-entry?**
+
+A portable deal means the already-defined terminal condition `D5 = D_CW AND D_C AND D_W`. Do not soften that rule after seeing the result.
+
+| Lock | Story beat | Player Q&A | Forecast |
+|---|---|---|---|
+| F1 | Departure | What authority or hidden veto matters most? | P(portable deal) |
+| F2 | Recognition and boundary | Did the boundary reduce or merely hide dependency? | updated P(portable deal) |
+| F3 | Compact | Is the chosen micro-deal actually portable? | updated P(portable deal) |
+| F4 | Riders on the Storm | Which assumption broke? Revise or hold. | updated P(portable deal) |
+| F5 | Return | Will the compact survive re-entry now? | final P(portable deal), locked before resolution |
+
+The player's Q&A may change the branch and therefore the conditional probability. Record the branch, but keep the terminal proposition fixed.
+
+The configuration probabilities later in this document compare **design alternatives**. They are not substitutes for the locked F1 -> F5 forecast path of an actual run.
+
 ## New failure classes
 
 ### Triangulation
