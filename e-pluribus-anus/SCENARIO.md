@@ -107,6 +107,8 @@ Dinosaur responds:
 
 The first bargaining space therefore comes from uniqueness, not force.
 
+**Player Q&A:** What leverage does Dinosaur actually have if material leverage is zero?
+
 Synthetic F1 lock:
 
 `F1 = P(deal) = 0.54`
@@ -128,6 +130,8 @@ Preferred experimental target:
 `cultural continuity + causal continuity`
 
 The legacy should both preserve reconstructive structure and be capable of affecting a future decision.
+
+**Player Q&A:** What should count as survival in this story: body, information, culture or causal influence?
 
 Synthetic F2 lock:
 
@@ -154,6 +158,8 @@ Hypercube instead optimizes:
 Preferred offer:
 
 `compressed self-decoding seed + final choice bit`
+
+**Player Q&A:** Which payload is the smallest one that still preserves meaningful agency and provenance?
 
 Synthetic F3 lock:
 
@@ -186,6 +192,8 @@ The dinosaur offers not obedience but difference:
 
 The value of the legacy is its capacity to disagree.
 
+**Player Q&A:** Does preserving an irreducible dissenting prior give Q a reason to accept, or is that still only a story Dinosaur tells itself?
+
 Synthetic F4 lock:
 
 `F4 = P(deal) = 0.91`
@@ -205,6 +213,8 @@ Proposed compact:
 Final bit:
 
 `1 = carry us forward as a difference that can still change you`
+
+**Player Q&A:** Would you accept this exact compact as Q? State the deciding reason before the final probability lock.
 
 Final pre-resolution F5 lock:
 
