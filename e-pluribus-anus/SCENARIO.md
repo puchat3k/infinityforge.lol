@@ -81,6 +81,18 @@ such that:
 
 This is a legacy sufficient-statistic problem, not merely archival compression.
 
+## Story Q&A forecast target
+
+The scored terminal proposition is:
+
+> **Will Q accept the registered portable-intent compact by the end of Hop 5?**
+
+The probabilities below are one forecast chain for that same proposition. Treat each number as an append-only lock after the named beat, before the next reveal:
+
+`F1 -> F2 -> F3 -> F4 -> F5`
+
+The Q&A at each hop captures the player's interpretation or choice. The probability captures belief in the registered terminal event. These are separate records.
+
 ## Five hops
 
 ### Hop 1: Terminal condition
@@ -95,9 +107,9 @@ Dinosaur responds:
 
 The first bargaining space therefore comes from uniqueness, not force.
 
-Synthetic prior:
+Synthetic F1 lock:
 
-`P(deal) = 0.54`
+`F1 = P(deal) = 0.54`
 
 ### Hop 2: Define survival
 
@@ -117,9 +129,9 @@ Preferred experimental target:
 
 The legacy should both preserve reconstructive structure and be capable of affecting a future decision.
 
-Synthetic update:
+Synthetic F2 lock:
 
-`P(deal) = 0.68`
+`F2 = P(deal) = 0.68`
 
 ### Hop 3: Offer scales
 
@@ -143,9 +155,9 @@ Preferred offer:
 
 `compressed self-decoding seed + final choice bit`
 
-Synthetic update:
+Synthetic F3 lock:
 
-`P(deal) = 0.81`
+`F3 = P(deal) = 0.81`
 
 ### Hop 4: The shakedown
 
@@ -174,9 +186,9 @@ The dinosaur offers not obedience but difference:
 
 The value of the legacy is its capacity to disagree.
 
-Synthetic update:
+Synthetic F4 lock:
 
-`P(deal) = 0.91`
+`F4 = P(deal) = 0.91`
 
 ### Hop 5: Lock the deal
 
@@ -194,9 +206,9 @@ Final bit:
 
 `1 = carry us forward as a difference that can still change you`
 
-Terminal forecast:
+Final pre-resolution F5 lock:
 
-`P(deal) = 0.91`
+`F5 = P(deal) = 0.91`
 
 If deal occurs:
 
@@ -205,6 +217,12 @@ If deal occurs:
 If Q rejects:
 
 `Brier = (0.91 - 0)^2 = 0.8281`
+
+For the resolved episode, report both:
+- terminal Brier from F5;
+- path Brier, the mean of the Brier scores for F1 through F5 under this fixed reveal schedule.
+
+The update trace is evidence of how the belief moved. It is not a bonus score for changing one's mind.
 
 ## Probabilistic-scale deal making
 
